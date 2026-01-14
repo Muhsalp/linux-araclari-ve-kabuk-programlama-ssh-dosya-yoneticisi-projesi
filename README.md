@@ -1,0 +1,1 @@
+# linux-araclari-ve-kabuk-programlama-ssh-dosya-yoneticisi-projesi
