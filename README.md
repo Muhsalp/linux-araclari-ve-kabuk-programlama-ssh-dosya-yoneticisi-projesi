@@ -1,5 +1,16 @@
 # Linux Araçları ve Kabuk Programlama SSH Dosya Yöneticisi Projesi
 
+## Seçtiğim Proje Konusu
+**`ssh`/`scp`:** Uzak bilgisayara bağlanma, dosya yönetimi ve aktarımı aracı arayüzü
+
+## Proje Açıklaması
+Uzak bilgisayara SSH bağlantısı ile bağlanarak GUI veya TUI arayüzleri üzerinden dizinlerde gezinme, dosya görüntüleme, yeniden adlandırma, silme, yerel bilgisayara aktarma, karşıya dosya gönderme işlemlerini yapabileceğiniz bir dosya yöneticisi.
+
+## Nasıl Çalıştırılır?
+- **GUI modu:** `sshdosyayoneticisi.sh --gui`
+- **TUI modu:** `sshdosyayoneticisi.sh --tui`
+
+## Ekran Görüntüleri
 ### GUI modunda bağlantı bilgilerini girme
 ![GUI Modu Görüntü 1](goruntu/gui1.png)
 ### GUI modunda dizinlerde gezinme
@@ -30,3 +41,15 @@
 ![TUI Modu Görüntü 7](goruntu/tui7.png)
 ### TUI modunda karşıya dosya gönderme
 ![TUI Modu Görüntü 8](goruntu/tui8.png)
+
+## Kullanılan Araçlar
+- **Programlama Dili:** Shell Script (Bash)
+- **GUI (Grafik Arayüz):** YAD (Yet Another Dialog)
+- **TUI (Metin Arayüz):** Whiptail
+
+## Bağımlılıklar
+- **`yad`:** Grafik arayüz için
+- **`whiptail`:** Metin arayüz için
+- **`ssh`:** Uzak bilgisayar bağlantısı için
+- **`sshpass`:** Bağlantıya şifre gönderimi için
+- **`scp`:** Bilgisayarlar arası dosya aktarımı için
